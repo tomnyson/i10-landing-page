@@ -54,6 +54,24 @@ export function Navigation() {
               Thông số
             </button>
             <button
+              onClick={() => scrollToSection("social-proof")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Đánh giá
+            </button>
+            <button
+              onClick={() => scrollToSection("faq")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              FAQ
+            </button>
+            <button
+              onClick={() => scrollToSection("location")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Địa chỉ
+            </button>
+            <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -103,6 +121,24 @@ export function Navigation() {
                 className="text-left text-foreground hover:text-primary transition-colors py-2"
               >
                 Thông số
+              </button>
+              <button
+                onClick={() => scrollToSection("social-proof")}
+                className="text-left text-foreground hover:text-primary transition-colors py-2"
+              >
+                Đánh giá
+              </button>
+              <button
+                onClick={() => scrollToSection("faq")}
+                className="text-left text-foreground hover:text-primary transition-colors py-2"
+              >
+                FAQ
+              </button>
+              <button
+                onClick={() => scrollToSection("location")}
+                className="text-left text-foreground hover:text-primary transition-colors py-2"
+              >
+                Địa chỉ
               </button>
               <button
                 onClick={() => scrollToSection("contact")}

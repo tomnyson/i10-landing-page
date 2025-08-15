@@ -1,8 +1,12 @@
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
+import { UrgencySection } from "@/components/urgency-section"
 import { BenefitsSection } from "@/components/benefits-section"
 import { ImageGallery } from "@/components/image-gallery"
 import { SpecsTable } from "@/components/specs-table"
+import { SocialProofSection } from "@/components/social-proof-section"
+import { FAQSection } from "@/components/faq-section"
+import { LocationSection } from "@/components/location-section"
 import { ContactForm } from "@/components/contact-form"
 
 export default function Home() {
@@ -13,6 +17,9 @@ export default function Home() {
         <div id="hero">
           <HeroSection />
         </div>
+        <div id="urgency">
+          <UrgencySection />
+        </div>
         <div id="benefits">
           <BenefitsSection />
         </div>
@@ -21,6 +28,15 @@ export default function Home() {
         </div>
         <div id="specs">
           <SpecsTable />
+        </div>
+        <div id="social-proof">
+          <SocialProofSection />
+        </div>
+        <div id="faq">
+          <FAQSection />
+        </div>
+        <div id="location">
+          <LocationSection />
         </div>
         <div id="contact">
           <ContactForm />

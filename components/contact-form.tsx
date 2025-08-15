@@ -17,8 +17,6 @@ export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
 
-  // Thay URL này bằng URL của Google Apps Script sau khi deploy
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby7MDLaUjj7fK139xjnSWdW_P_v_3LJ9ZRHuK-kOcP-5n3gU0UP4_QmLnnb1MADw72xNQ/exec';
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -104,7 +102,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-muted-foreground">contact@hyundai-sales.vn</p>
+                    <p className="text-muted-foreground">tabletkindfire@gmail.com</p>
                   </div>
                 </div>
 
@@ -114,7 +112,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Địa chỉ</p>
-                    <p className="text-muted-foreground">Showroom Hyundai, TP.HCM</p>
+                    <p className="text-muted-foreground">Xem xe tại 11 Lương Thế Vinh, Phường Buôn Ma Thuộc</p>
                   </div>
                 </div>
 

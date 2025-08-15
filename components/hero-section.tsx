@@ -18,12 +18,12 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
         <Badge variant="secondary" className="mb-4 text-lg px-4 py-2">
-          Model 2020 - Siêu Lướt
+          ⭐ XE SIÊU LƯỚT - CHÍNH CHỦ BÁN
         </Badge>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
           Hyundai Grand i10 2020
-          <span className="block text-primary">Màu Vàng Nâu Độc Đáo</span>
+          <span className="block text-primary">Chỉ 310 Triệu - Rẻ Nhất Thị Trường</span>
         </h1>
 
         <div className="mb-6">
@@ -32,12 +32,14 @@ export function HeroSection() {
             <span className="text-4xl md:text-5xl font-bold text-destructive">310 triệu</span>
           </div>
           <Badge variant="destructive" className="text-lg px-6 py-2 animate-pulse">
-            🔥 GIẢM GIÁ 10 TRIỆU - CHỈ TRONG TUẦN NÀY!
+            🔥 TIẾT KIỆM 10 TRIỆU - CÒN 3 NGÀY!
           </Badge>
         </div>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          ODO chỉ 60.000 km. Cam kết nguyên bản, không một lỗi nhỏ. Lựa chọn hoàn hảo cho gia đình và công việc.
+          ✅ ODO thật 60.000km ✅ Bảo dưỡng đầy đủ ✅ Không đâm đụng, ngập nước
+          <br/>
+          <strong className="text-primary">Cam kết hoàn tiền 100% nếu phát hiện gian dối!</strong>
         </p>
 
         <div className="mb-8">
@@ -67,13 +69,13 @@ export function HeroSection() {
             className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
           >
             <Calendar className="mr-2 h-5 w-5" />
-            ĐĂNG KÝ XEM XE
+            XEM XE MIỄN PHÍ TẠI NHÀ
           </Button>
         </div>
 
         <div className="mt-8 flex justify-center">
           <Badge variant="destructive" className="text-base px-6 py-2">
-            🔥 CAM KẾT VÀNG: BAO ĐÂM ĐỤNG, NGẬP NƯỚC
+            �️ BẢO HÀNH 12 THÁNG - HOÀN TIỀN 100% NẾU GIAN DỐI
           </Badge>
         </div>
       </div>

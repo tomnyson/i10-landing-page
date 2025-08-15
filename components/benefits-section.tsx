@@ -4,33 +4,33 @@ import { CheckCircle, Shield, Fuel, FileText, Calendar, Star } from "lucide-reac
 const benefits = [
   {
     icon: Calendar,
-    title: "Model 2020 Đời Cao",
-    description: "Thiết kế hiện đại, trang bị đầy đủ tính năng an toàn và tiện nghi.",
+    title: "Xe Đời 2020 - Còn Mới 95%",
+    description: "4 năm tuổi, trang bị đầy đủ, nội thất nguyên zin chưa thay đổi gì.",
   },
   {
     icon: CheckCircle,
-    title: "ODO Chuẩn 60.000 km",
-    description: "Xe đi ít, máy móc cực êm và bền bỉ. Bảo dưỡng định kỳ đầy đủ.",
+    title: "ODO Thật 60.000km - Có Hóa Đơn",
+    description: "Đi trung bình 15.000km/năm, bảo dưỡng đúng hãng, máy móc êm ru.",
   },
   {
     icon: Star,
-    title: "Màu Vàng Cát Hiếm Có",
-    description: "Sang trọng, sạch sẽ và nổi bật.",
+    title: "Màu Vàng Cát - Ít Xe Có",
+    description: "Màu hiếm, không bám bẩn, dễ bán lại sau này với giá cao.",
   },
   {
     icon: Shield,
-    title: "Cam Kết Vàng",
-    description: "BAO ĐÂM ĐỤNG, NGẬP NƯỚC. Phát hiện lỗi tặng xe ngay!",
+    title: "Cam Kết Hoàn Tiền 100%",
+    description: "Nếu phát hiện đâm đụng, ngập nước, ODO chỉnh - trả tiền ngay!",
   },
   {
     icon: Fuel,
-    title: "Tiết Kiệm Nhiên Liệu",
-    description: "Động cơ 1.2L cực kỳ tiết kiệm, di chuyển linh hoạt trong thành phố.",
+    title: "Tiết Kiệm 3.8L/100km",
+    description: "Chỉ tốn 300k tiền xăng/tháng, phù hợp đi làm và đưa đón con.",
   },
   {
     icon: FileText,
-    title: "Pháp Lý Minh Bạch",
-    description: "Giấy tờ đầy đủ, sang tên nhanh gọn trong ngày.",
+    title: "Sang Tên Trong Ngày",
+    description: "Giấy tờ gốc đầy đủ, không vay ngân hàng, không vi phạt.",
   },
 ]
 
@@ -39,9 +39,9 @@ export function BenefitsSection() {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">Tại Sao Chọn Chiếc Xe Này?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">Tại Sao 1,200+ Khách Hàng Tin Tưởng?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Những lý do thuyết phục để bạn tin tưởng lựa chọn
+            6 lý do thuyết phục để bạn an tâm mua xe không lo rủi ro
           </p>
         </div>
 
