@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Google Apps Script</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Test Form để kiểm tra Google Apps Script</h1>
+    
+    <form action="https://script.google.com/macros/s/AKfycby7MDLaUjj7fK139xjnSWdW_P_v_3LJ9ZRHuK-kOcP-5n3gU0UP4_QmLnnb1MADw72xNQ/exec" method="POST" target="_blank">
+        <p>
+            <label>Tên:</label><br>
+            <input type="text" name="name" value="Test User" required>
+        </p>
+        
+        <p>
+            <label>Điện thoại:</label><br>
+            <input type="tel" name="phone" value="0123456789" required>
+        </p>
+        
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email" value="test@test.com">
+        </p>
+        
+        <p>
+            <label>Tin nhắn:</label><br>
+            <textarea name="message">Test message từ HTML form</textarea>
+        </p>
+        
+        <p>
+            <button type="submit">Submit Test</button>
+        </p>
+    </form>
+    
+    <hr>
+    <h2>Instructions:</h2>
+    <ol>
+        <li>Click "Submit Test" button</li>
+        <li>Sẽ mở tab mới</li>
+        <li>Kiểm tra response trong tab mới</li>
+        <li>Nếu success = true → Apps Script hoạt động OK</li>
+        <li>Kiểm tra Google Sheet có data mới không</li>
+    </ol>
+</body>
+</html>
